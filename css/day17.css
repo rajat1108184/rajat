@@ -1,0 +1,55 @@
+.body{
+       border-color:red 2px;
+       background-color: black;
+       color: white;
+
+}
+.header{
+        text-align: center;
+        border: 1px solid rgb(113, 102, 182);
+        background-color: slateblue;
+        box-shadow:red 40px;
+        color: azure;
+        position:sticky 10px;
+        top: 0;
+        width:100%;
+        animation: ani 2s infinite alternate-reverse;
+}
+@keyframes ani{
+    10%{
+        color: plum;
+}
+ 30%{
+    color: greenyellow;
+ }
+ 50%{
+    color:blue;
+ }
+ 70%{
+    color: green;
+ }
+ 90%{
+    color: maroon;
+ }
+ 100%{
+    color: purple;
+}
+
+}
+ul li a{
+   border: 2px;
+   display: inline-block;
+   position: fixed;
+   position: initial;
+    
+}
+.contactus{ text-align: center;
+           
+
+}
+.footer{
+   color: azure;
+   width: 100%;
+   height:400px;
+   position: sticky 10px;
+}

@@ -1,0 +1,35 @@
+body{
+    background-color: darkblue;
+}
+.container{ border:10px;
+    color:blue;
+    background-color: white;
+    width:170px;
+    height:300px;
+    text-align: center;
+    transform: translate(300px,70px);
+    
+}
+.hr{
+    position: relative;
+    bottom:-70px;
+}
+.OR{ 
+    position: relative;
+    left:350px;
+    bottom:40px;
+
+}
+.l{
+    border:5px;
+    height:20px;
+    width: 100px;
+    position: relative;
+    top: 33px;
+
+}
+.cna{
+    color:white;
+    position: relative;
+    left:290px;
+}

@@ -1,0 +1,46 @@
+.header{
+           text-align: center;
+           border: 1px solid black;
+           background-color: black;
+           color: azure;
+           position: fixed;
+           top: 0;
+           width:100%;
+           animation: ani 2s infinite alternate-reverse;
+}
+@-o-keyframes ani{
+    10%{
+        color: plum;
+}
+ 30%{
+    color: greenyellow;
+ }
+ 50%{
+    color:blue;
+ }
+ 70%{
+    color: green;
+ }
+ 90%{
+    color: maroon;
+ }
+ 100%{
+    color: purple;
+}
+}
+ul li a{
+   display: inline-block;
+    text-decoration: none;
+    list-style: none;
+    font-size: 30px;
+    color:white;
+
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+.navbar{
+   
+}
+

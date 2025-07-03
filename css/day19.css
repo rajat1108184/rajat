@@ -1,0 +1,37 @@
+body{
+    background-image: linear-gradient(green,blue);
+}
+h1{
+    font: size 20px;;
+}
+ul{ 
+    display:inline;
+    display: flex;
+    gap:30px;
+    position: relative;
+    bottom: 50px;
+    left: 70px;
+
+}
+.navbutton{
+    background-color: black;
+    display: inline;
+    position: relative;
+    left: 700px;
+    bottom: 65px;
+    gap:30px;
+}
+.herosection{
+    position: relative;
+    left:100px;
+}
+.p{
+    position: relative;
+    left:100px;
+
+}
+.img{
+    position: relative;
+    left:700px;
+    bottom:65px;
+}
